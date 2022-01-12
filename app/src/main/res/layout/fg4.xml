@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/B_MapLocation"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorFen"
+        android:textColor="@color/bg_black"
+        android:text="获得当前定位"></Button>
+
+    <View
+        android:id="@+id/div_tab_bar41"
+        android:layout_width="match_parent"
+        android:layout_height="30px"
+        android:layout_above="@id/rg_tab_bar"
+        android:background="@color/div_white" />
+    <Button
+        android:id="@+id/bt_main_logout"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="退出登录"
+        android:background="@color/colorFen"
+        android:textColor="@color/bg_black"
+        />
+
+
+</LinearLayout>

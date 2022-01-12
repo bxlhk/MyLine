@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/B_PlayGame"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorFen"
+        android:textColor="@color/bg_black"
+        android:text="玩游戏"></Button>
+    <View
+        android:id="@+id/div_tab_bar31"
+        android:layout_width="match_parent"
+        android:layout_height="30px"
+        android:layout_above="@id/rg_tab_bar"
+        android:background="@color/div_white" />
+    <Button
+        android:id="@+id/B_PlayMusic"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorFen"
+        android:textColor="@color/bg_black"
+        android:text="听音乐"></Button>
+
+</LinearLayout>

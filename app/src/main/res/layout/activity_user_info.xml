@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserInfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <!-- 标题  -->
+        <ImageView
+            android:id="@+id/ReturnHome"
+            android:src="@mipmap/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"/>
+        <ImageView
+            android:id="@+id/imageView"
+            android:src="@mipmap/touxiang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="lhk"
+            android:textColor="#000"
+            android:textSize="35sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="95dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="手机号："
+                android:layout_marginLeft="50dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/UserPhoneNum"
+                android:hint="请输入手机号"
+                android:textColorHint="@color/colorTiShi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"/>
+        </LinearLayout>
+        <!-- 完善个人信息 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="家庭住址："
+                android:layout_marginLeft="50dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/UserHomeLovation"
+                android:hint="请输入家庭住址"
+                android:textColorHint="@color/colorTiShi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:layout_marginRight="50dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="兴趣爱好："
+                android:layout_marginLeft="50dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/UserHabit"
+                android:hint="请输入你的兴趣爱好"
+                android:textColorHint="@color/colorTiShi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:layout_marginRight="50dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/SaveBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="保存"
+                android:layout_gravity="center"
+                android:background="@color/colorWhite"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+            <Button
+                android:id="@+id/ReturnloginBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="退出登陆"
+                android:layout_gravity="center"
+                android:background="@color/colorWhite"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
